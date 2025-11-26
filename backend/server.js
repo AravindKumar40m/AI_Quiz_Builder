@@ -21,3 +21,7 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 app.use("/api", quizzRoutes);
 app.use("/api", openaiRoutes);
+
+app.use("/api", () => {
+  console.log("print");
+});
