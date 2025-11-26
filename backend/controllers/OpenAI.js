@@ -1,6 +1,9 @@
 import OpenAI from "openai";
 import QuizzSchema from "../models/QuizzSchema.js";
 
+// this is a new comment
+// this is the second new commit
+
 const openai = new OpenAI({
   apiKey: process.env.GEMINI_API_KEY,
   baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
