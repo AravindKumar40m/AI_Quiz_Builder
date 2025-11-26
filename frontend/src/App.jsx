@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react"; // Add useEffect
 import axios from "./utils/axios";
 
+// this is the third commit
+// this is the fourth commit
+
 const App = () => {
   const [topic, setTopic] = useState("");
   const [questions, setQuestions] = useState([]); // Explicitly array
